@@ -1,0 +1,54 @@
+{
+  "name": "azure-penguin-doctor",
+  "author": "Microsoft Corporation",
+  "contributors": [
+    "Yue, Zhang <yuezha@microsoft.com>"
+  ],
+  "version": "1.0.0",
+  "description": "Azure Linux VM Rescure tools",
+  "tags": [
+    "azure",
+    "vm",
+    "linux",
+    "rescure",
+    "tools"
+  ],
+  "keywords": [
+    "node",
+    "azure",
+    "vm",
+    "linux",
+    "rescure",
+    "tools"
+  ],
+  "main": "lib/pd.js",
+  "preferGlobal": "true",
+  "engines": {
+    "node": ">= 0.8.26"
+  },
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "promise" : "6.1.0",
+    "azure-common" : "0.9.10",
+    "azure-storage" : "0.4.2",
+    "azure-mgmt-storage" : "0.9.14",
+    "azure-mgmt-compute" : "0.9.14"
+  },
+  "devDependencies": {
+  },
+  "homepage": "https://github.com/yuezh/azure-penguin-doctor",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yuezh/azure-penguin-doctor.git"
+  },
+  "bin": {
+    "pd": "lib/pd.js"
+  },
+  "scripts":{
+  }
+}
