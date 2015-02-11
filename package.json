@@ -47,7 +47,7 @@
     "url": "git@github.com:yuezh/azure-penguin-doctor.git"
   },
   "bin": {
-    "pd": "lib/pd.js"
+    "pd": "bin/pd"
   },
   "scripts":{
   }
